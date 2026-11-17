@@ -1,0 +1,30 @@
+==============================================================================
+E9 work-precision: BDF2-Taylor vs BGN1
+==============================================================================
+circle  BDF2-Taylor  tau=1.000e-01 M=  5 err=6.568213105628828e-05 t=0.010182500816881657 
+circle  BDF2-Taylor  tau=5.000e-02 M= 10 err=2.186113102053966e-05 t=0.020817100070416927 
+circle  BDF2-Taylor  tau=2.500e-02 M= 20 err=6.1560126229931456e-06 t=0.04147789999842644 
+circle  BDF2-Taylor  tau=1.250e-02 M= 40 err=1.6256823212046356e-06 t=0.07827220018953085 
+circle  BDF2-Taylor  tau=6.250e-03 M= 80 err=4.1727462263274617e-07 t=0.15843309927731752 
+circle  BDF2-Taylor  tau=3.125e-03 M=160 err=1.0567653774273822e-07 t=0.3125588996335864 
+circle  BGN1         tau=1.000e-01 M=  5 err=0.007093352592111746 t=0.007654699496924877 
+circle  BGN1         tau=5.000e-02 M= 10 err=0.004223105272753935 t=0.013600500300526619 
+circle  BGN1         tau=2.500e-02 M= 20 err=0.002254409626179399 t=0.02551420032978058 
+circle  BGN1         tau=1.250e-02 M= 40 err=0.0011598743201877149 t=0.053783999755978584 
+circle  BGN1         tau=6.250e-03 M= 80 err=0.0005877413968582434 t=0.10978739988058805 
+circle  BGN1         tau=3.125e-03 M=160 err=0.0002957775038006094 t=0.22241679951548576 
+ellipse BDF2-Taylor  tau=1.000e-01 M=  5 err=0.013525177234169107 t=0.009681399911642075 
+ellipse BDF2-Taylor  tau=5.000e-02 M= 10 err=0.00385041591013286 t=0.019584099762141705 
+ellipse BDF2-Taylor  tau=2.500e-02 M= 20 err=0.001031385630898556 t=0.039633999578654766 
+ellipse BDF2-Taylor  tau=1.250e-02 M= 40 err=None t=None FAIL
+ellipse BDF2-Taylor  tau=6.250e-03 M= 80 err=None t=None FAIL
+ellipse BDF2-Taylor  tau=3.125e-03 M=160 err=None t=None FAIL
+ellipse BGN1         tau=1.000e-01 M=  5 err=0.047441752876557185 t=0.007051199674606323 
+ellipse BGN1         tau=5.000e-02 M= 10 err=0.02615232248773406 t=0.013827700167894363 
+ellipse BGN1         tau=2.500e-02 M= 20 err=0.013530096971240997 t=0.02659699972718954 
+ellipse BGN1         tau=1.250e-02 M= 40 err=0.006874216079703708 t=0.056099699810147285 
+ellipse BGN1         tau=6.250e-03 M= 80 err=0.0034760994913506545 t=0.11205659992992878 
+ellipse BGN1         tau=3.125e-03 M=160 err=0.0017613920858346643 t=0.22623119968920946 
+[saved] D:\Trae CN-Setup-x64等安装包\test\project8.1.7.1\12_MCA_Major_Revision_Phase3Plus\03_New_Experiments\sm\MCA_Supplementary_Materials\A1_Numerics\data\e9_work_precision.json
+
+E9 done in 47.4s

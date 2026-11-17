@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the accompanying manuscript."
+type: software
+title: "mca-4686604-bdf2-taylor: code and data for a linearly implicit BDF2-Taylor finite element method for nonlocal power-law curvature flow"
+authors:
+  - family-names: Huoye
+    given-names: Chengde
+version: 1.0.0
+date-released: 2026-11-17
+license:
+  - MIT
+  - CC-BY-4.0

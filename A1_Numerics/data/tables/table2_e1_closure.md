@@ -1,0 +1,10 @@
+### Table 2. E1 closure defect D_h ~ h^q (A5)
+
+| shape | time | q finest | q fit (asym.) | R² (asym.) | q fit (all) | R² (all) | available |
+|---|---|---|---|---|---|---|---|
+| circle | t=0 | 2.000 | 2.000 | 1.0000 | 2.000 | 1.0000 | True |
+| circle | t=T | 1.999 | 2.000 | 1.0000 | 2.000 | 1.0000 | True |
+| ellipse | t=0 | 2.000 | 2.000 | 1.0000 | 2.000 | 1.0000 | True |
+| ellipse | t=T | 1.979 | 1.988 | 1.0000 | 1.991 | 1.0000 | True |
+| flower | t=0 | 1.967 | 1.868 | 0.9993 | 1.573 | 0.9765 | True |
+| flower | t=T | 1.982 | 1.982 | 1.0000 | 1.998 | 1.0000 | True |

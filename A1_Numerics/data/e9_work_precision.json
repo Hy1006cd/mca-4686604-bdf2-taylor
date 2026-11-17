@@ -1,0 +1,467 @@
+{
+ "experiment": "E9",
+ "generated": "2026-11-16 21:58:32",
+ "environment": {
+  "date": "2026-11-16 21:58:32",
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.8",
+  "seed": 20261020,
+  "cwd": "D:\\Trae CN-Setup-x64等安装包\\test\\project8.1.7.1\\12_MCA_Major_Revision_Phase3Plus\\03_New_Experiments\\sm\\MCA_Supplementary_Materials\\A1_Numerics\\code",
+  "code_dir": "D:\\Trae CN-Setup-x64等安装包\\test\\project8.1.7.1\\12_MCA_Major_Revision_Phase3Plus\\03_New_Experiments\\sm\\MCA_Supplementary_Materials\\A1_Numerics\\code",
+  "project_dir": "D:\\Trae CN-Setup-x64等安装包\\test\\project8.1.7.1\\12_MCA_Major_Revision_Phase3Plus\\03_New_Experiments\\sm\\MCA_Supplementary_Materials",
+  "legacy_solver_dir": "D:\\Trae CN-Setup-x64等安装包\\test\\project8.1.7.1\\12_MCA_Major_Revision_Phase3Plus\\03_New_Experiments\\sm\\MCA_Supplementary_Materials\\A1_Legacy_BGN1_Baseline\\code\\solver"
+ },
+ "setup": {
+  "shapes": [
+   "circle",
+   "ellipse"
+  ],
+  "n": 2,
+  "N": 512,
+  "T": 0.5,
+  "tau0": 0.1,
+  "k_levels": 6,
+  "repeats": 3,
+  "ellipse_ref": {
+   "N": 2048,
+   "tau": 6.25e-05,
+   "M": 8000
+  }
+ },
+ "rows": [
+  {
+   "shape": "circle",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.1,
+   "M": 5,
+   "tau_target": 0.1,
+   "failed": false,
+   "reason": "",
+   "error": 6.568213105628828e-05,
+   "time_median": 0.010182500816881657,
+   "ms_per_step": 2.0365001633763313,
+   "times": [
+    0.013441899791359901,
+    0.010182500816881657,
+    0.010111000388860703
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.05,
+   "M": 10,
+   "tau_target": 0.05,
+   "failed": false,
+   "reason": "",
+   "error": 2.186113102053966e-05,
+   "time_median": 0.020817100070416927,
+   "ms_per_step": 2.0817100070416927,
+   "times": [
+    0.02041199989616871,
+    0.020973199978470802,
+    0.020817100070416927
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.025,
+   "M": 20,
+   "tau_target": 0.025,
+   "failed": false,
+   "reason": "",
+   "error": 6.1560126229931456e-06,
+   "time_median": 0.04147789999842644,
+   "ms_per_step": 2.073894999921322,
+   "times": [
+    0.041876199655234814,
+    0.04147789999842644,
+    0.03843220043927431
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.0125,
+   "M": 40,
+   "tau_target": 0.0125,
+   "failed": false,
+   "reason": "",
+   "error": 1.6256823212046356e-06,
+   "time_median": 0.07827220018953085,
+   "ms_per_step": 1.9568050047382712,
+   "times": [
+    0.07931530009955168,
+    0.07827220018953085,
+    0.07791640050709248
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.00625,
+   "M": 80,
+   "tau_target": 0.00625,
+   "failed": false,
+   "reason": "",
+   "error": 4.1727462263274617e-07,
+   "time_median": 0.15843309927731752,
+   "ms_per_step": 1.980413740966469,
+   "times": [
+    0.15843309927731752,
+    0.15716249961405993,
+    0.16003070026636124
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.003125,
+   "M": 160,
+   "tau_target": 0.003125,
+   "failed": false,
+   "reason": "",
+   "error": 1.0567653774273822e-07,
+   "time_median": 0.3125588996335864,
+   "ms_per_step": 1.9534931227099148,
+   "times": [
+    0.3125588996335864,
+    0.3052023006603122,
+    0.3159463005140424
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BGN1",
+   "tau": 0.1,
+   "M": 5,
+   "tau_target": 0.1,
+   "failed": false,
+   "reason": "",
+   "error": 0.007093352592111746,
+   "time_median": 0.007654699496924877,
+   "ms_per_step": 1.5309398993849754,
+   "times": [
+    0.008707699365913868,
+    0.007654699496924877,
+    0.007042900659143925
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BGN1",
+   "tau": 0.05,
+   "M": 10,
+   "tau_target": 0.05,
+   "failed": false,
+   "reason": "",
+   "error": 0.004223105272753935,
+   "time_median": 0.013600500300526619,
+   "ms_per_step": 1.360050030052662,
+   "times": [
+    0.012243899516761303,
+    0.013600500300526619,
+    0.01600810047239065
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BGN1",
+   "tau": 0.025,
+   "M": 20,
+   "tau_target": 0.025,
+   "failed": false,
+   "reason": "",
+   "error": 0.002254409626179399,
+   "time_median": 0.02551420032978058,
+   "ms_per_step": 1.275710016489029,
+   "times": [
+    0.027218099683523178,
+    0.02536060009151697,
+    0.02551420032978058
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BGN1",
+   "tau": 0.0125,
+   "M": 40,
+   "tau_target": 0.0125,
+   "failed": false,
+   "reason": "",
+   "error": 0.0011598743201877149,
+   "time_median": 0.053783999755978584,
+   "ms_per_step": 1.3445999938994646,
+   "times": [
+    0.05350060015916824,
+    0.054051099345088005,
+    0.053783999755978584
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BGN1",
+   "tau": 0.00625,
+   "M": 80,
+   "tau_target": 0.00625,
+   "failed": false,
+   "reason": "",
+   "error": 0.0005877413968582434,
+   "time_median": 0.10978739988058805,
+   "ms_per_step": 1.3723424985073507,
+   "times": [
+    0.11237409990280867,
+    0.1082811001688242,
+    0.10978739988058805
+   ]
+  },
+  {
+   "shape": "circle",
+   "scheme": "BGN1",
+   "tau": 0.003125,
+   "M": 160,
+   "tau_target": 0.003125,
+   "failed": false,
+   "reason": "",
+   "error": 0.0002957775038006094,
+   "time_median": 0.22241679951548576,
+   "ms_per_step": 1.390104996971786,
+   "times": [
+    0.22472780011594296,
+    0.21936480049043894,
+    0.22241679951548576
+   ]
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.1,
+   "M": 5,
+   "tau_target": 0.1,
+   "failed": false,
+   "reason": "",
+   "error": 0.013525177234169107,
+   "time_median": 0.009681399911642075,
+   "ms_per_step": 1.936279982328415,
+   "times": [
+    0.010422199964523315,
+    0.009681399911642075,
+    0.00948570016771555
+   ]
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.05,
+   "M": 10,
+   "tau_target": 0.05,
+   "failed": false,
+   "reason": "",
+   "error": 0.00385041591013286,
+   "time_median": 0.019584099762141705,
+   "ms_per_step": 1.9584099762141707,
+   "times": [
+    0.019252600148320198,
+    0.019790999591350555,
+    0.019584099762141705
+   ]
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.025,
+   "M": 20,
+   "tau_target": 0.025,
+   "failed": false,
+   "reason": "",
+   "error": 0.001031385630898556,
+   "time_median": 0.039633999578654766,
+   "ms_per_step": 1.9816999789327383,
+   "times": [
+    0.03940290026366711,
+    0.039633999578654766,
+    0.04308660048991442
+   ]
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.0125,
+   "M": 40,
+   "tau_target": 0.0125,
+   "failed": true,
+   "reason": "SolverFailure('non-admissible state after BDF2 step: mesh_ratio')",
+   "error": null,
+   "time_median": null,
+   "ms_per_step": null,
+   "times": null
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.00625,
+   "M": 80,
+   "tau_target": 0.00625,
+   "failed": true,
+   "reason": "SolverFailure('non-admissible state after BDF2 step: mesh_ratio')",
+   "error": null,
+   "time_median": null,
+   "ms_per_step": null,
+   "times": null
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BDF2-Taylor",
+   "tau": 0.003125,
+   "M": 160,
+   "tau_target": 0.003125,
+   "failed": true,
+   "reason": "SolverFailure('non-admissible state after BDF2 step: mesh_ratio')",
+   "error": null,
+   "time_median": null,
+   "ms_per_step": null,
+   "times": null
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BGN1",
+   "tau": 0.1,
+   "M": 5,
+   "tau_target": 0.1,
+   "failed": false,
+   "reason": "",
+   "error": 0.047441752876557185,
+   "time_median": 0.007051199674606323,
+   "ms_per_step": 1.4102399349212646,
+   "times": [
+    0.007233100011944771,
+    0.0068890005350112915,
+    0.007051199674606323
+   ]
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BGN1",
+   "tau": 0.05,
+   "M": 10,
+   "tau_target": 0.05,
+   "failed": false,
+   "reason": "",
+   "error": 0.02615232248773406,
+   "time_median": 0.013827700167894363,
+   "ms_per_step": 1.3827700167894363,
+   "times": [
+    0.013827700167894363,
+    0.013482899405062199,
+    0.013926500454545021
+   ]
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BGN1",
+   "tau": 0.025,
+   "M": 20,
+   "tau_target": 0.025,
+   "failed": false,
+   "reason": "",
+   "error": 0.013530096971240997,
+   "time_median": 0.02659699972718954,
+   "ms_per_step": 1.329849986359477,
+   "times": [
+    0.026591399684548378,
+    0.02659699972718954,
+    0.02716080006211996
+   ]
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BGN1",
+   "tau": 0.0125,
+   "M": 40,
+   "tau_target": 0.0125,
+   "failed": false,
+   "reason": "",
+   "error": 0.006874216079703708,
+   "time_median": 0.056099699810147285,
+   "ms_per_step": 1.4024924952536821,
+   "times": [
+    0.05665899999439716,
+    0.056099699810147285,
+    0.05396590009331703
+   ]
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BGN1",
+   "tau": 0.00625,
+   "M": 80,
+   "tau_target": 0.00625,
+   "failed": false,
+   "reason": "",
+   "error": 0.0034760994913506545,
+   "time_median": 0.11205659992992878,
+   "ms_per_step": 1.4007074991241097,
+   "times": [
+    0.10951889958232641,
+    0.11205659992992878,
+    0.11519359983503819
+   ]
+  },
+  {
+   "shape": "ellipse",
+   "scheme": "BGN1",
+   "tau": 0.003125,
+   "M": 160,
+   "tau_target": 0.003125,
+   "failed": false,
+   "reason": "",
+   "error": 0.0017613920858346643,
+   "time_median": 0.22623119968920946,
+   "ms_per_step": 1.4139449980575591,
+   "times": [
+    0.24230610020458698,
+    0.22445280011743307,
+    0.22623119968920946
+   ]
+  }
+ ],
+ "time_to_target": {
+  "circle": {
+   "BDF2-Taylor": {
+    "1e-02": null,
+    "3e-03": null,
+    "1e-03": null,
+    "3e-04": null,
+    "1e-04": null
+   },
+   "BGN1": {
+    "1e-02": null,
+    "3e-03": 0.019160536631084402,
+    "1e-03": 0.0628442731968433,
+    "3e-04": 0.21919881267949648,
+    "1e-04": null
+   }
+  },
+  "ellipse": {
+   "BDF2-Taylor": {
+    "1e-02": 0.011467709549836495,
+    "3e-03": 0.022382515436168506,
+    "1e-03": null,
+    "3e-04": null,
+    "1e-04": null
+   },
+   "BGN1": {
+    "1e-02": 0.037115085358955954,
+    "3e-03": 0.1304814927818671,
+    "1e-03": null,
+    "3e-04": null,
+    "1e-04": null
+   }
+  }
+ },
+ "elapsed_s": 47.44402499962598
+}

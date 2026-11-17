@@ -1,0 +1,459 @@
+{
+ "experiment": "E0",
+ "generated": "2026-10-20 21:38:33",
+ "environment": {
+  "date": "2026-10-20 21:38:33",
+  "python": "3.13.12",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.8",
+  "seed": 20261020
+ },
+ "all_pass": true,
+ "results": [
+  {
+   "name": "E0-a operator identities and independent geometry",
+   "items": [
+    {
+     "shape": "circle",
+     "N": 128,
+     "geometry_dev": 6.938893903907228e-18,
+     "sum_Ni": 7.771561172376096e-16,
+     "sum_Mi_minus_perimeter": 1.7763568394002505e-15,
+     "pass_": true
+    },
+    {
+     "shape": "circle",
+     "N": 512,
+     "geometry_dev": 1.734723475976807e-18,
+     "sum_Ni": 9.957312752106873e-16,
+     "sum_Mi_minus_perimeter": 0.0,
+     "pass_": true
+    },
+    {
+     "shape": "ellipse",
+     "N": 128,
+     "geometry_dev": 0.0,
+     "sum_Ni": 5.551115123125783e-16,
+     "sum_Mi_minus_perimeter": 0.0,
+     "pass_": true
+    },
+    {
+     "shape": "ellipse",
+     "N": 512,
+     "geometry_dev": 1.734723475976807e-18,
+     "sum_Ni": 1.9984014443252818e-15,
+     "sum_Mi_minus_perimeter": 0.0,
+     "pass_": true
+    },
+    {
+     "shape": "flower",
+     "N": 128,
+     "geometry_dev": 2.7755575615628914e-17,
+     "sum_Ni": 9.992007221626409e-16,
+     "sum_Mi_minus_perimeter": 0.0,
+     "pass_": true
+    },
+    {
+     "shape": "flower",
+     "N": 512,
+     "geometry_dev": 3.469446951953614e-18,
+     "sum_Ni": 5.88418203051333e-15,
+     "sum_Mi_minus_perimeter": 0.0,
+     "pass_": true
+    },
+    {
+     "shape": "superellipse",
+     "N": 128,
+     "geometry_dev": 0.0,
+     "sum_Ni": 4.85722573273506e-17,
+     "sum_Mi_minus_perimeter": 0.0,
+     "pass_": true
+    }
+   ],
+   "pass_": true
+  },
+  {
+   "name": "E0-b initial curvature kappa^0, theta-ellipse",
+   "N": [
+    64,
+    128,
+    256,
+    512,
+    1024
+   ],
+   "errors": [
+    0.0017725994817071144,
+    0.00044448819675264016,
+    0.00011120601922046113,
+    2.780675802322582e-05,
+    6.952017911640637e-06
+   ],
+   "orders": [
+    1.9956495822162583,
+    1.9989102306711755,
+    1.9997274221004628,
+    1.999931847031265
+   ],
+   "representative": 1.999829634565864,
+   "pass_": true
+  },
+  {
+   "name": "E0-c 2D solver vs exact finite-N scalar reduction",
+   "items": [
+    {
+     "n": 1,
+     "N": 64,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 3.2566542055671265e-15,
+     "kappa_rel": 7.3186457016418e-15,
+     "regular": true,
+     "radius_spread": 2.7216747374344265e-12,
+     "edge_spread": 2.5305701798139317e-11,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 1,
+     "N": 128,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 2.3684757858670005e-15,
+     "kappa_rel": 3.163182641690223e-15,
+     "regular": true,
+     "radius_spread": 7.269740365245542e-12,
+     "edge_spread": 5.072490331877819e-11,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 1,
+     "N": 256,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 2.6645352591003757e-15,
+     "kappa_rel": 3.630155925875569e-14,
+     "regular": true,
+     "radius_spread": 7.345679620129905e-12,
+     "edge_spread": 1.6313686463789847e-10,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 1,
+     "N": 512,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 3.2566542055671253e-15,
+     "kappa_rel": 3.4804836618451186e-14,
+     "regular": true,
+     "radius_spread": 6.667525790741538e-11,
+     "edge_spread": 4.267230451510336e-10,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 2,
+     "N": 64,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 1.631501606659219e-14,
+     "kappa_rel": 2.8743734754674636e-14,
+     "regular": true,
+     "radius_spread": 4.5596657986484185e-12,
+     "edge_spread": 1.6939646911575073e-11,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 2,
+     "N": 128,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 2.28715779540601e-15,
+     "kappa_rel": 1.1475537146350849e-14,
+     "regular": true,
+     "radius_spread": 4.816601839938685e-12,
+     "edge_spread": 2.576690407811671e-11,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 2,
+     "N": 256,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 7.0139550076163e-15,
+     "kappa_rel": 3.26560676925561e-14,
+     "regular": true,
+     "radius_spread": 2.347540245592637e-12,
+     "edge_spread": 5.7522633406714794e-11,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 2,
+     "N": 512,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 2.5661817867500014e-15,
+     "kappa_rel": 5.189697090045218e-14,
+     "regular": true,
+     "radius_spread": 3.945807741318155e-12,
+     "edge_spread": 1.0920645343980099e-10,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 3,
+     "N": 64,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 2.0848075876216346e-14,
+     "kappa_rel": 3.0069017006903212e-15,
+     "regular": true,
+     "radius_spread": 1.6767142814774544e-12,
+     "edge_spread": 1.2154975658422323e-11,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 3,
+     "N": 128,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 4.854126569175521e-14,
+     "kappa_rel": 2.914612034077719e-14,
+     "regular": true,
+     "radius_spread": 5.543817052545607e-12,
+     "edge_spread": 2.7239968775900176e-11,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 3,
+     "N": 256,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 3.609468860375127e-14,
+     "kappa_rel": 4.531356905997541e-14,
+     "regular": true,
+     "radius_spread": 4.721558662700879e-12,
+     "edge_spread": 4.66960489872154e-11,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "n": 3,
+     "N": 512,
+     "T": 0.2,
+     "M": 100,
+     "radius_rel_max": 4.885226053411179e-14,
+     "kappa_rel": 1.2010366715127433e-13,
+     "regular": true,
+     "radius_spread": 2.161696970589585e-11,
+     "edge_spread": 1.2354667746063893e-10,
+     "failed": false,
+     "pass_": true
+    }
+   ],
+   "pass_": true
+  },
+  {
+   "name": "E0-d n=1 regular polygon is an exact steady state",
+   "items": [
+    {
+     "N": 64,
+     "max_dx": 2.8226977721259698e-11,
+     "regular": true,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "N": 128,
+     "max_dx": 4.07100760116226e-11,
+     "regular": true,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "N": 256,
+     "max_dx": 2.480377142752985e-11,
+     "regular": true,
+     "failed": false,
+     "pass_": true
+    },
+    {
+     "N": 512,
+     "max_dx": 3.461469799169546e-10,
+     "regular": true,
+     "failed": false,
+     "pass_": true
+    }
+   ],
+   "pass_": true
+  },
+  {
+   "name": "E0-e modified ODE vs continuum ODE (cos(pi/N) defect)",
+   "items": [
+    {
+     "n": 2,
+     "N": [
+      64,
+      128,
+      256,
+      512
+     ],
+     "errors": [
+      3.1445711597077874e-05,
+      7.759859437017624e-06,
+      1.933630954908949e-06,
+      4.830120905463531e-07
+     ],
+     "orders": [
+      2.0187608586393986,
+      2.004718045439477,
+      2.0011812665326145
+     ],
+     "finest_pair": 2.0011812665326145,
+     "pass_": true
+    },
+    {
+     "n": 3,
+     "N": [
+      64,
+      128,
+      256,
+      512
+     ],
+     "errors": [
+      1.2650033508032621e-05,
+      2.973935236738612e-06,
+      7.317264099082621e-07,
+      1.8219720865353395e-07
+     ],
+     "orders": [
+      2.0886960710700215,
+      2.0229969947018436,
+      2.0058034738629065
+     ],
+     "finest_pair": 2.0058034738629065,
+     "pass_": true
+    }
+   ],
+   "pass_": true
+  },
+  {
+   "name": "E0-f arc-length alignment self-check",
+   "items": [
+    {
+     "N": 64,
+     "test": "identity",
+     "value": 1.2757001226805674e-16,
+     "pass_": true,
+     "shift": 0.0
+    },
+    {
+     "N": 64,
+     "test": "cyclic_shift",
+     "value": 6.561173622446466e-16,
+     "pass_": true,
+     "shift": 0.140625
+    },
+    {
+     "N": 128,
+     "test": "identity",
+     "value": 8.381605096105549e-17,
+     "pass_": true,
+     "shift": 0.0
+    },
+    {
+     "N": 128,
+     "test": "cyclic_shift",
+     "value": 1.0197625135572193e-15,
+     "pass_": true,
+     "shift": 0.140625
+    },
+    {
+     "N": 257,
+     "test": "identity",
+     "value": 1.239159782535304e-16,
+     "pass_": true,
+     "shift": 0.0
+    },
+    {
+     "N": 257,
+     "test": "cyclic_shift",
+     "value": 2.7839992893035265e-15,
+     "pass_": true,
+     "shift": 0.14007782101167265
+    }
+   ],
+   "pass_": true
+  },
+  {
+   "name": "E0-g linear residual and initial closure",
+   "max_residual": 4.0093829030254174e-16,
+   "min_abs_denominator": 0.9995738658998433,
+   "D_h_initial": 0.0005814806540094253,
+   "K_h_initial": 6.283766787833596,
+   "pass_": true
+  },
+  {
+   "name": "E0-h exact finite-N circle closure defect",
+   "items": [
+    {
+     "N": 64,
+     "D_h": 0.005051463312222282,
+     "D_exact": 0.005051463312222282,
+     "rel_diff": 0.0,
+     "abs_diff": 0.0,
+     "pass_": true
+    },
+    {
+     "N": 128,
+     "D_h": 0.0012619527053274737,
+     "D_exact": 0.0012619527053274737,
+     "rel_diff": 0.0,
+     "abs_diff": 0.0,
+     "pass_": true
+    },
+    {
+     "N": 256,
+     "D_h": 0.0003154311583468683,
+     "D_exact": 0.0003154311583468683,
+     "rel_diff": 0.0,
+     "abs_diff": 0.0,
+     "pass_": true
+    },
+    {
+     "N": 512,
+     "D_h": 7.885422677755827e-05,
+     "D_exact": 7.885422677755827e-05,
+     "rel_diff": 0.0,
+     "abs_diff": 0.0,
+     "pass_": true
+    },
+    {
+     "N": 1024,
+     "D_h": 1.9713334030946328e-05,
+     "D_exact": 1.9713334031834506e-05,
+     "rel_diff": 4.5054703494894925e-11,
+     "abs_diff": 8.881784197001252e-16,
+     "pass_": true
+    },
+    {
+     "N": 2048,
+     "D_h": 4.928319590646879e-06,
+     "D_exact": 4.9283195915350575e-06,
+     "rel_diff": 1.8021932287542218e-10,
+     "abs_diff": 8.881784197001252e-16,
+     "pass_": true
+    }
+   ],
+   "pass_": true
+  }
+ ]
+}

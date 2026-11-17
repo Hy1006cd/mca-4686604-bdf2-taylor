@@ -1,0 +1,12 @@
+==============================================================================
+E3b one-step startup curvature error
+==============================================================================
+n=1 taylor: k_cont finest=0.000 k_mod finest=-0.225 pos_mod finest=nan
+n=1 first: k_cont finest=0.000 k_mod finest=-0.225 pos_mod finest=nan
+n=2 taylor: k_cont finest=0.023 k_mod finest=2.133 pos_mod finest=3.039
+n=2 first: k_cont finest=-0.078 k_mod finest=1.962 pos_mod finest=2.000
+n=3 taylor: k_cont finest=0.012 k_mod finest=2.564 pos_mod finest=3.020
+n=3 first: k_cont finest=-0.166 k_mod finest=1.968 pos_mod finest=2.001
+[saved] D:\Trae CN-Setup-x64等安装包\test\project8.1.7.1\12_MCA_Major_Revision_Phase3Plus\03_New_Experiments\sm\MCA_Supplementary_Materials\A1_Numerics\data\e3b_startup_curvature.json
+
+E3b done in 0.3s

@@ -1,0 +1,27 @@
+==============================================================================
+A1_Numerics checks
+==============================================================================
+E0 gate: PASS
+  JSON e0_verification.json     ok
+  JSON e1_closure.json          ok
+  JSON e2_spatial.json          ok
+  JSON e3_temporal.json         ok
+  JSON e4_stability.json        ok
+  JSON e5_cost.json             ok
+  JSON e6_comparison.json       ok
+  FIG  fig1_closure.pdf  ok
+  FIG  fig1_closure.png  ok
+  FIG  fig2_spatial.pdf  ok
+  FIG  fig2_spatial.png  ok
+  FIG  fig3_temporal.pdf  ok
+  FIG  fig3_temporal.png  ok
+  FIG  fig4_stability.pdf  ok
+  FIG  fig4_stability.png  ok
+  FIG  fig5_cost.pdf  ok
+  FIG  fig5_cost.png  ok
+  FIG  fig6_n_sensitivity.pdf  ok
+  FIG  fig6_n_sensitivity.png  ok
+  tables: 18 CSV files
+  report structure: {'en_exists': False, 'zh_exists': False}
+
+checks: PASS
